@@ -1,0 +1,12 @@
+@import "src/styles/mixins";
+
+.navbar {
+    padding: 30px 0;
+
+    &-row {
+        @include flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
