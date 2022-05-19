@@ -1,0 +1,14 @@
+.container {
+    width: 600px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+
+.list {
+    list-style: none;
+}
+
+.item {
+    margin-bottom: 15px;
+}
