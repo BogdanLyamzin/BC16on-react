@@ -1,0 +1,9 @@
+.btn {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    display: inline-block;
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 10px 15px;
+    background-color:transparent;
+    cursor: pointer;
+}
