@@ -1,0 +1,36 @@
+.heading {
+    text-align: center;
+}
+
+.list {
+    padding: 20px;
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 30px;
+    margin-bottom: 15px;
+}
+
+.item {
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.loadMoreContainer {
+    text-align: center;
+}
+
+.loadMore {
+    display: inline-block;
+    background-color: orange;
+    padding: 10px 15px;
+    cursor: pointer;
+    border: 1px solid orange;
+    border-radius: 5px;
+    color: white;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-weight: bold;
+}
