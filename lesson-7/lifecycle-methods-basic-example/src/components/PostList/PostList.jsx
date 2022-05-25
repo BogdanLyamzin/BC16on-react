@@ -17,9 +17,10 @@ class PostList extends Component {
 
     componentDidUpdate(prevProps, prevState) {
         const {page} = this.state;
-        console.log(page);
-        console.log(prevState.page);
+
         if(page > prevState.page) {
+            console.log(page);
+            console.log(prevState.page);
             this.fetchPosts();
         }
     }
