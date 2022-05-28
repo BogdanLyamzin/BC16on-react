@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" id="title">
+    <script>
+        const array = [ 
+  { color: 'white', id: 2 }, 
+  { color: 'black', id: 3 }, 
+  { color: 'black', id: 500 }, 
+]; 
+const output = array.reduce((acum, {color, id}) => {
+    if(!acum[color]) {
+        acum[color] = {}
+    }
+    acum[color][id] = {
+        color, id
+    }
+    return acum;
+}, {})
+// const output = {};
+// array.forEach(({color, id}) => {
+//     if(!output.hasOwnProperty(color)) {
+//         output[color] = {}
+//     }
+//     output[color][id] = {
+//         color, id
+//     }
+// })
+console.log(output);
+// output = { 
+//   'white': { 
+//      '2': { color:  'white', id: 2 }, 
+//   }, 
+//   'black': { 
+//      '3': { color: 'black', id: 3 }, 
+//      '500': { color: 'black', id: 500 } 
+//   } 
+// }
+    </script>
+</body>
+</html>
