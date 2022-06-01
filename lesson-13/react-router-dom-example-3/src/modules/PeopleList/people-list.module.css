@@ -1,0 +1,18 @@
+.list {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 30px;
+}
+
+.item {
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+.link {
+    text-decoration: none;
+    color: #000;
+}
