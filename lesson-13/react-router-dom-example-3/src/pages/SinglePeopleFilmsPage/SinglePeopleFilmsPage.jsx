@@ -29,7 +29,7 @@ const SinglePeopleFilmsPage = () =>{
             }
         }
         fetchFilms();
-    }, []);
+    }, [id]);
 
     const {items, loading, error} = films;
     const elements = items.map(({episode_id, title}) => (

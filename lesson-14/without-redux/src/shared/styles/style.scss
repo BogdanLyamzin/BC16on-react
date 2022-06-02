@@ -1,0 +1,17 @@
+@import "reset";
+@import "fonts";
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+.container {
+    max-width: 1040px;
+    margin: 0 auto;
+}
+
+.page-title {
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
