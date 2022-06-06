@@ -1,0 +1,101 @@
+{ "products" : [
+  { "id": 1, "name": "Cheese", "price" : 2.50},
+  { "id": 2, "name": "Crisps", "price" : 3},
+  { "id": 3, "name": "Pizza", "price" : 4},
+  { "id": 4, "name": "Chocolate", "price" : 1.50},
+  { "id": 5, "name": "Self-raising flour", "price" : 1.50},
+  { "id": 6, "name": "Ground almonds", "price" : 3}
+  ],
+  "reviews": [
+    {
+      "id": 1,
+      "text": "5 stars",
+      "productId": 1
+    },
+    {
+      "id": 2,
+      "text": "3.5 stars",
+      "productId": 1
+    },
+    {
+      "id": 3,
+      "text": "4 starts",
+      "productId": 1
+    },
+    {
+      "id": 4,
+      "text": "2 stars",
+      "productId": 2
+    },
+    {
+      "id": 5,
+      "text": "3 stars",
+      "productId": 2
+    },
+    {
+      "id": 6,
+      "text": "2 starts",
+      "productId": 2
+    },
+    {
+      "id": 7,
+      "text": "1 stars",
+      "productId": 3
+    },
+    {
+      "id": 8,
+      "text": "5 stars",
+      "productId": 3
+    },
+    {
+      "id": 9,
+      "text": "3 starts",
+      "productId": 3
+    },
+    {
+      "id": 10,
+      "text": "4 stars",
+      "productId": 4
+    },
+    {
+      "id": 11,
+      "text": "2 stars",
+      "productId": 4
+    },
+    {
+      "id": 12,
+      "text": "3 starts",
+      "productId": 4
+    },
+    {
+      "id": 13,
+      "text": "4 stars",
+      "productId": 5
+    },
+    {
+      "id": 14,
+      "text": "4 stars",
+      "productId": 5
+    },
+    {
+      "id": 15,
+      "text": "5 starts",
+      "productId": 5
+    },
+    {
+      "id": 16,
+      "text": "4 stars",
+      "productId": 6
+    },
+    {
+      "id": 17,
+      "text": "4 stars",
+      "productId": 6
+    },
+    {
+      "id": 18,
+      "text": "5 starts",
+      "productId": 6
+    }
+  ]
+}
